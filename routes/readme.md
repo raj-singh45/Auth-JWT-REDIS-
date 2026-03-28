@@ -1,4 +1,6 @@
-uthRouter.post("/logout", userAuth , async (req, res) => {
+
+
+authRouter.post("/logout", userAuth , async (req, res) => {
 
     try {
         const { token } = req.cookies;
